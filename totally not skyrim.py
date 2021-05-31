@@ -1,10 +1,10 @@
 def game():
 
-    answer=input('Hey, you. Youre finally awake')
+    answer= input('Hey, you. Youre finally awake')
     
-    if answer.lower()== 'Huh':
+    if answer.lower()== 'y/n':
         print ('Ralof; you were trying to cross the border right? walked right into that Imperal ambush, same as us, and that thief over there.')
-        start=True
+        start==True
         inventory=[]
         
     else:
